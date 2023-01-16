@@ -1,0 +1,11 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"D1";"LED_D5.0mm";1;"LED";;;
+2;"J2";"IDC-Header_2x20_P2.54mm_Vertical";1;"Conn_02x20_Odd_Even";;;
+3;"U1";"DIP-14_W7.62mm_Socket_LongPads";1;"7400";;;
+4;"SW1";"SW_PUSH_6mm";1;"SW_Push";;;
+5;"R5,R2,R1,R4,R3";"R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal";5;"1K";;;
+6;"J1";"PinSocket_1x06_P2.54mm_Vertical";1;"Conn_01x06_Female";;;
+7;"C4,C3,C2,C1,C5";"C_Disc_D5.0mm_W2.5mm_P2.50mm";5;"100N";;;
+8;"U2";"DIP-40_W15.24mm_Socket_LongPads";1;"6502";;;
+9;"U4,U3";"DIP-28_W15.24mm_Socket_LongPads";2;"71256SA";;;
+10;"U5";"DIP-20_W7.62mm_Socket_LongPads";1;"PIC18F14Q41";;;
