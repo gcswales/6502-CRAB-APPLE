@@ -8,7 +8,7 @@ This project was initially intended as a personal project but due to the level o
 
 The Crab Apple is a very simple and minimalist computer, as such is ideal for the first-time builder wanting to build their own retro-computer.
 
-Just to clarify; the system will run most software for the Apple I computer but, due to the minimalist nature of the design, it is NOT hardware compatible with the Apple I.
+Just to clarify; **the system will run most software for the Apple I computer but, due to the minimalist nature of the design, it is NOT hardware compatible with the Apple I.**
 
 Ultimately the Crab Apple is minimum complexity, minimum cost and maximum fun!
 
