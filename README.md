@@ -59,7 +59,7 @@ To reduce board complexity the PIC also provides a clean reset, which is trigger
 
 The schematic and PCB have been created using KiCAD, these files can be found in the *ELECTRONICS* folder.
 
-You Can buy the PCB from here: <a href="https://www.pcbway.com/project/shareproject/MINIMAL_6502_SINGLE_BOARD_COMPUTER_CRAB_APPLE_I_d3186ce3.html">PCBWay</a>
+You can buy the PCB from here: <a href="https://www.pcbway.com/project/shareproject/MINIMAL_6502_SINGLE_BOARD_COMPUTER_CRAB_APPLE_I_d3186ce3.html">PCBWay</a>
 
 The BOM uses <a href="https://www.mouser.co.uk/">Mouser</a> codes and prices as on January 2023, however buying from <a href="https://www.ebay.co.uk/">Ebay</a> will considerably reduce the cost (buyer be ware!).
 
