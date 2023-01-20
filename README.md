@@ -4,19 +4,19 @@ This project was initially intended as a personal project but due to the level o
 
 ## Introduction
 
-The Crab Apple I is a very simple and minimalist computer, as such is ideal for the first-time builder wanting to build their own retro-computer.
+The Crab Apple is a very simple and minimalist computer, as such is ideal for the first-time builder wanting to build their own retro-computer.
 
 Just to clarify; the system will run most software for the Apple I computer but, due to the minimalist nature of the design, it is NOT hardware compatible with the Apple I.
 
-Ultimately the Crab Apple I is minimum complexity, minimum cost and maximum fun!
+Ultimately the Crab Apple is minimum complexity, minimum cost and maximum fun!
 
 ## Minimal
 
-The Crab Apple I is not emulated and does not use an FPGA; the architecture is fairly standard with the exception of an 8-bit microcontroller which will be explained later.
+The Crab Apple is not emulated and does not use an FPGA; the architecture is fairly standard with the exception of an 8-bit microcontroller which will be explained later.
 
 ## Memory
 
-At the heart of the Crab Apple I is a 65C02 microprocessor. This is the modern version of the classic 6502 device which has a wider operating frequency (you’ll see why later) and still readily available.
+At the heart of the Crab Apple is a 65C02 microprocessor. This is the modern version of the classic 6502 device which has a wider operating frequency (you’ll see why later) and still readily available.
 
 The system has 32k of RAM in the form of a 28-pin static RAM chip. It has a 28-pin 8k of ROM chip; this is an EEPROM rather than the older (and considerably more expensive) EPROMs.
 
@@ -32,7 +32,7 @@ Memory Map:
 
 ## UART
 
-This is the biggest ‘hack’; Rather than use several chips the Crab Apple I uses a single low-cost microcontroller to act as an all-in-one serial interface. When used in conjunction with a PC running suitable terminal software the system can display text and receive keyboard input.
+This is the biggest *hack*; Rather than use several chips the Crab Apple uses a single low-cost microcontroller to act as an all-in-one serial interface. When used in conjunction with a PC running suitable terminal software the system can display text and receive keyboard input.
 
 The microcontroller used (PIC18F15Q41) runs off an internal oscillator at 64MHz (16MIPS), however it still does not have sufficient speed to access and respond to the 6502 data bus  in real-time. To over-come this the PIC also provides the system clock to the CPU. When the PIC is selected by the data bus it halts the system clock (effectively freezing time for the 6502). This enables the PIC to leisurely read from/write to the data bus, before resuming the system clock. 
 
@@ -116,7 +116,7 @@ A lot of Apple I software only sends carriage return (CR) without line feed (LF)
 
 The Crab Apple BIOS menu is activated by pressing the space bar during the boot screen while the animated cursor is *rotating*. The menu enables the user to configure the CPU speed, serial BAUD rate and default text colour.
 
-Here is a short video (no sound) showing the BIOS menu in action: <link>
+Here is a short video (no sound) showing the BIOS menu in action: <a href="https://youtube.com/shorts/APpxrt6QOSg">YouTube Video</a>
 
 ## Thank you
 
