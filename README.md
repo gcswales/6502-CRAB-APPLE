@@ -61,7 +61,7 @@ The schematic and PCB have been created using KiCAD, these files can be found in
 
 You can buy the PCB from here: <a href="https://www.pcbway.com/project/shareproject/MINIMAL_6502_SINGLE_BOARD_COMPUTER_CRAB_APPLE_I_d3186ce3.html">PCBWay</a>
 
-The BOM uses <a href="https://www.mouser.co.uk/">Mouser</a> codes and prices as on January 2023, however buying from <a href="https://www.ebay.co.uk/">Ebay</a> will considerably reduce the cost (buyer be ware!).
+The bill of material (BOM) uses <a href="https://www.mouser.co.uk/">Mouser</a> codes and prices as on January 2023, however buying from <a href="https://www.ebay.co.uk/">Ebay</a> will considerably reduce the cost (buyer be ware!).
 
 I recommend using IC sockets so the ICs can be removed (especially the ROM for programming). As with any build; start with the smallest (profile) parts and build up to the taller components; resistors, capacitors, button, IC sockets, serial connector then LED last.
 
