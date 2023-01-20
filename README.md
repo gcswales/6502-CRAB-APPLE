@@ -1,4 +1,4 @@
-# CRAB APPLE - A MINIMAL 6502 COMPUTE
+# CRAB APPLE - A MINIMAL 6502 COMPUTER
 
 ![6502_SBC](https://user-images.githubusercontent.com/50659826/213731069-e93c9aa4-9158-4db3-b60e-5158fdb3a500.jpg)
 
