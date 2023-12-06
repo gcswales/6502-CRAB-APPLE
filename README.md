@@ -57,6 +57,8 @@ To reduce board complexity the PIC also provides a clean reset, which is trigger
 
 ## Building
 
+IMPORTANT UPDATE: If using the WDC 6502, pin 1 is not connected to ground. It is used to indicate that an interrupt is happening (for DMA, etc). If using a WDC 6502 it is best to gently 'bend' pin 1 so it does not sit in the DIP contact.
+
 The schematic and PCB have been created using KiCAD, these files can be found in the *ELECTRONICS* folder.
 
 You can buy the PCB from here: <a href="https://www.pcbway.com/project/shareproject/MINIMAL_6502_SINGLE_BOARD_COMPUTER_CRAB_APPLE_I_d3186ce3.html">PCBWay</a>
